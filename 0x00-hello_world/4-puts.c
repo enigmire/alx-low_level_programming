@@ -1,2 +1,2 @@
 #include<stdio.h>
-./puts
+'./puts'
