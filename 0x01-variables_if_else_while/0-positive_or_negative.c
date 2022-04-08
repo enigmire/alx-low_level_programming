@@ -4,8 +4,13 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 
-int main(void) /*Beginning of code*/
+int main(void)
 {
 int n;
 srand(time(0));
