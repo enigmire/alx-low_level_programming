@@ -10,19 +10,14 @@
 
 int main(void)
 {
-  int x;
-  for (x = 'a'; x <= 'z'; x++)
-  {
-    putchar(x);
-    if (x = 'e')
-      {
-	putchar(' ');
-      }
-    /*    else
-      {
-	putchar(x);
-	}
-	putchar(x);*/
-  }
-  return (0);
+int x;
+for (x = 'a'; x <= 'z'; x++)
+{
+if (x != 'e' && x != 'q')
+{
+putchar(x);
+}
+}
+putchar('\n');
+return (0);
 }
