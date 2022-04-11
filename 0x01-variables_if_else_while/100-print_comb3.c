@@ -9,39 +9,36 @@
 */
 
 int main(void)
-  
+
 {
-  
-  int x;
-  
+int i, e;
 
-  
-  for (x = '0'; x < '9'; x++)
-    
-    {
-      
-      putchar(x);
-      
-      putchar(x + 1);
-      
+i = 48;
+e = 48;
 
-      
-      if (x == 89)
-	
-        {
-	  
-	  continue;
-	  
-        }
-      
-      putchar(',');
-      
-      putchar(' ');
-      
-    }
-  
-  putchar('\n');
-  
-  return (0);
-  
+while (e < 58)
+{
+
+i = 48;
+while (i < 58)
+{
+
+if (e != i && e < i)
+{
+
+putchar(e);
+putchar(i);
+if (i == 57 && e == 56)
+{
+break;
+}
+putchar(',');
+putchar(' ');
+}
+i++;
+}
+e++;
+}
+putchar('\n');
+return (0);
 }
