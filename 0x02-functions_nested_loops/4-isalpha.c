@@ -10,5 +10,5 @@
 int _isalpha(int r)
 
 {
-  return ((r >= 97 && r <= 122) || return (r >= 65 && r <= 90));
+  return ((r >= 97 && r <= 122) || (r >= 65 && r <= 90));
 }
