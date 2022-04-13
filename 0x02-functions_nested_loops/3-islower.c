@@ -9,7 +9,7 @@ int main(void)
 {
 int r;
 r = _islower('C');
-if (r = 'c')
+if (r == 'c')
 {
 return (1);
 }else
