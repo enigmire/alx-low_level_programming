@@ -5,9 +5,8 @@
 * Return: Always 0
 */
 
-int _islower(int c)
+int _islower(int r)
 {
-int r;
 r = _islower('C');
 if (r == 'c')
 {
