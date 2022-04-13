@@ -6,10 +6,12 @@
 * Return: Always )
 */
 
-int _abs(int)
+int _abs(int r)
 {
   int r;
+  {
   r = _abs(-1);
   _putchar("%d\n", r);
+  }
   return (0);
 }
