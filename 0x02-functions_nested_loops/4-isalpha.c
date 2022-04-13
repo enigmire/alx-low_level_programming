@@ -7,13 +7,12 @@
 * Return: 0 or 1
 */
 
-int _isalpha(int r)
+int _isalpha(int r, int Z)
 
 {
 return (r >= 97 && r <= 122);
 }
 
-int _isalpha(int Z)
 
 {
 return (Z >=97 && Z <= 122);
