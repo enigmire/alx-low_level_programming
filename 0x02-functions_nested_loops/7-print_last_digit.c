@@ -8,10 +8,6 @@
 
 int print_last_digit(int digit)
 {
-  int num;
- num = 849;
- digit = num % digit;
-
- _putchar("%d\n", digit);
-return (digit);
+digit = 849;
+ return (digit);
 }
