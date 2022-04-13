@@ -6,7 +6,6 @@
 */
 
 void print_alphabet_x10(void)
-char main(void)
 {
 int n = 0;
 while (n < 10)
@@ -15,9 +14,9 @@ while (n < 10)
 char x;
 for (x = 'a'; x <= 'z'; x++)
 {
-putchar(x);
+_putchar(x);
 }
-putchar('\n');
+_putchar('\n');
 n++;
 }
 }
