@@ -6,11 +6,7 @@
 */
 
 int _islower(int r)
+
 {
-r = _islower('C');
-if (r == 'c')
-{
-return (1);
-}
-return (0);
+return (r >= 97 && <= 122);
 }
