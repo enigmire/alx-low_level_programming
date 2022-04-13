@@ -8,8 +8,8 @@
 
 int print_last_digit(int digit)
 {
-  int num, digit;
- sign = 849;
+  int num;
+ num = 849;
  digit = num % digit;
 
  _putchar("%d\n", digit);
