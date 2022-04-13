@@ -8,5 +8,5 @@
 int _islower(int r)
 
 {
-return (r >= 97 && <= 122);
+return (r >= 97 && r <= 122);
 }
