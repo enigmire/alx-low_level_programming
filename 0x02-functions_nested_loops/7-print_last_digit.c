@@ -6,8 +6,11 @@
 * Return: 0 or 1
 */
 
-int print_last_digit(int digit)
+int print_last_digit(int n)
 {
-digit = 849;
- return (digit);
+int digit = n % 10;
+if (n < 0)
+digit = digit * -1;
+_putchar(digit + '0');
+return (digit);
 }
