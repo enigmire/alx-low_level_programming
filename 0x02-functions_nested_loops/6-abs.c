@@ -3,12 +3,10 @@
 /**
 * _abs(int) - absolute value of integer
 * @r : integer to check
-* Return: Always )
+* Return: Always 0 or 1
 */
 
 int _abs(int r)
 {
-  r = _abs(-1);
-  _putchar(r);
-  return (0);
+return (r >= 0 ? r : r * -1);
 }
