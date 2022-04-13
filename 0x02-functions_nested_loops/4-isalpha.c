@@ -12,7 +12,9 @@ int _isalpha(int r)
 {
 return (r >= 97 && r <= 122);
 }
+
 int _islower(int z)
+
 {
-return (z >=97 && r <= 122);
+return (z >=97 && z <= 122);
 }  
