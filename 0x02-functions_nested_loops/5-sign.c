@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-* @n : print the sign of number
+* print_sign of number
+* @n : number to test
 * Return: 0 or 1
 */
 
