@@ -11,7 +11,9 @@ void print_times_table(int n)
 {
 int row, column, product;
 
-if (n >= 0; row <= n; row++)
+if (n >= 0 && n < 15)
+{
+for (row = 0; row <= n; row++)
 {
 for (column = 0; colum <= n; column++)
 {
