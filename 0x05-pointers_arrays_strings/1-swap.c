@@ -2,13 +2,15 @@
 
 /**
 * swap_int - sway the values of two integers
-* @i: changes parameter
+* @a: integer to swap
+* @b: integer to swap
+* @temp: changes parameter
 * Return: 0
 */
 
 void swap_int(int *a, int *b)
 {
-int i = *a;
+int temp = *a;
 *a = *b;
-*b = i;
+*b = temp;
 }
