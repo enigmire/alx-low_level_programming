@@ -2,7 +2,7 @@
 
 /**
 * _strlen - returns the length of string
-* @a: integer to swap
+* @lenght: lenght of string
 * @b: integer to swap
 * @temp:
 * Return: 0
@@ -11,5 +11,7 @@
 int _strlen(char *s)
 {
 int lenght;
-lenght = _strlen(*s);
+lenght = _strlen(s);
+
+return (0);
 }
