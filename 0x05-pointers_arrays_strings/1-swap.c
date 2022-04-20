@@ -4,7 +4,7 @@
 * swap_int - sway the values of two integers
 * @a: integer to swap
 * @b: integer to swap
-* @i: swap call
+* @i: changes parameter
 * Return: 0
 */
 
