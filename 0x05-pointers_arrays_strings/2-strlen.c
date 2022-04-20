@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* _strlen - returns the length of string
-* @i: initial 
+* _strlen - length of string
+* @i: initial
 * @s: pointer to variable s
 * Return: 0
 */
