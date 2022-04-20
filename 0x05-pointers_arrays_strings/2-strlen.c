@@ -2,7 +2,6 @@
 
 /**
 * _strlen - length of string
-* @i: initial
 * @s: pointer to variable s
 * Return: 0
 */
