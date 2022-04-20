@@ -4,16 +4,14 @@
 
 /**
 * _strlen - returns the length of string
-* @len: lenght of string
-* @b: integer to swap
-* @temp:
+* @i: initial counter
 * Return: 0
 */
 
 int _strlen(char *s)
 {
-int i;
-while s[i]
+int i = 0;
+while (s[i])
 i++;
 return (0);
 }
