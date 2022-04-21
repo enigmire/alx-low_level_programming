@@ -2,7 +2,7 @@
 
 /**
 * _atol - convert a string to an integer
-* @s: chat type string
+* @s: char type string
 * Return: integer converted
 */
 
