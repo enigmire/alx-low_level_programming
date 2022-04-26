@@ -16,7 +16,6 @@ o = 0;
 if (size <= 0)
 {
 printf("\n");
-
 return;
 }
 
@@ -38,7 +37,7 @@ printf(" ");
 }
 for (i = 0; i < j; i++)
 {
-intt c = *(b + o + i);
+int c = *(b + o + i);
 
 if (c < 32 || c > 132)
 {
