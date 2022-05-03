@@ -2,7 +2,8 @@
 
 /**
 * main - Entry point
-*
+* @argc: variable count
+* @argv: variable array
 * Return: Always 0
 */
 
