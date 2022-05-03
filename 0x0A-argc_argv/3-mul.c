@@ -5,7 +5,7 @@
 * main - Entry point
 * @argc: variable count
 * @argv: variable array
-* Return: 0 or 1
+* Return: Always success
 */
 
 int main(int argc, char *argv[])
