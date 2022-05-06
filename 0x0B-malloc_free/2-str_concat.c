@@ -22,24 +22,20 @@ while (*ptr++)
 size1++;
 else
 s1 = "";
-  
 ptr = s2;
 if (s2)
 while (*ptr++)
 size2++;
 else
 s2 = "";
-  
 ret = malloc(size1 + size2 + 1);
 if (!ret)
 return (NULL);
-
 ptr = ret;
 while (*s1)
 *ptr++ = *s1++;
 while (*s2)
 *ptr++ = *s2++;
 *ptr = 0;
-  
 return (ret);
 }
