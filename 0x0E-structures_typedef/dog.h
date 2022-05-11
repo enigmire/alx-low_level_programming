@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
+* struct dog- main entry
 *
-* Return: void
+* @name: dog name
+* @age: dog age
+* @owner: dog owner
 */
+
 struct dog
 {
 char *name;
