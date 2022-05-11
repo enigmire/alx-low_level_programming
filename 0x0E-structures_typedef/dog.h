@@ -3,15 +3,11 @@
 /**
 * main - Entry point
 *
-* Return: Always 0
+* Return: void
 */
-int main(void)
+struct dog
 {
-  struct dog
-  {
-    char *name;
-    float age;
-    char *owner;
-  };
-  return (0);
-}
+char *name;
+float age;
+char *owner;
+};
