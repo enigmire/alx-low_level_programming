@@ -2,6 +2,6 @@
 #define MACROS_H
 
 
-#define ABS(x) abs(x)
+#define ABS(x)abs(x)
 
 #endif
